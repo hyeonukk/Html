@@ -1,15 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+       
+        .box {
+            overflow: hidden;
+            width: 1020px;
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+
+
+        .wrap {
+            float: left;
+            overflow: hidden;
+            width: 480px;
+        }
+        
+
+        .wrap .inner {
+            float: left;
+            width: 33.3333%;
+            box-sizing: border-box;
+            border: 1px solid #777;
+            height: 155px;
+        }
+
+         .wrap2 {
+            margin-left: 8px;
+            border: 1px solid #777;
+            width: 236px;
+            height: 310px;
+        }
+       
+
+        .wrap3 {
+            margin-left: 8px;
+            border: 1px solid #777;
+            width: 280px;
+            height: 310px;
+            text-align: center;
+        }
+
+       
+
+        .up{
+            height: 50.0000%;
+            border-bottom: 1px solid #777;
+            padding: 0px 15px;
+            overflow: hidden;
+        }
+
+    
+
+        span{  
+            font-size: 5px;
+            color: #777;
+            padding-top: 20px;
+        }
+
+       
+        .top{
+            padding-top: 0;
+            font-size: larger;
+            color:black;
+        }
+       
+        .up .left{
+            float: left;
+        }
+
+        .up .right{
+            float: right;
+        }
+  
+        
+        .btn-wrap {
+            background-color: #05ff69;
+            border: none;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 500;
+            padding: 12px 40%;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .btn-wrap:hover{
+            background-color: #777;
+        }
+
+        
+    </style>
 </head>
+
 <body>
-    <!--
-        1. 컨텐츠 사이즈 : 1080px
-            
-    -->
+    <div class="box">
+
+
+        <h6>최신앨범, 사진영역상자 </h6>
+        <div class="wrap">
+
+            <div class="inner">
+                <div>
+                    사진
+                </div>
+            </div>
+
+            <div class="inner">
+                <div>사진</div>
+            </div>
+
+            <div class="inner">
+                <div>사진</div>
+            </div>
+
+            <div class="inner">
+                <div>사진</div>
+            </div>
+
+            <div class="inner">
+                <div>사진</div>
+            </div>
+
+            <div class="inner">
+                <div>사진</div>
+            </div>
+
+        </div>
+
+        <div class="wrap wrap2">
+            <img src="img/abc.img" alt="이미지"><br>
+            이미지입니다~~~
+        </div>
+
+        <div class="wrap wrap3">
+            <div class="up">
+                <span class="top">너비, 왼쪽마진</span>
+
+                <span class="left">멜론을 더 안전하게 이용하세요</span>
+                <span class="right">회원가입</span>
+
+                <button type="button" class="btn-wrap">로그인</button>
+
+            </div>
+            <div class="up"></div>
+
+        </div>
+
+    </div>
 </body>
+
 </html>

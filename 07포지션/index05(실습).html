@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        .list {
+            width: 800px;
+            margin: 0 auto;
+            border: 1px solid #777;
+            position: relative; 
+            padding: 10px;
+        }
+        .img_list {position: absolute;
+        top: 10px;
+        left: 10px;
+        }
+
+        .img_list img {width: 50px;}
+
+        .list_content {
+            padding-left: 60px; 
+            overflow: hidden;   
+            
+        }
+        .list_content textarea {
+                width: 100%;
+                box-sizing: border-box;
+                height: 150px;
+                resize: none;
+            }
+        .list_content .left {float: left;}
+        .list_content .right{float: right;}
+
+        .left input {display: block;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="list"> <!--margin:0 auto-->
+        <div class="img_list">
+            <img src="img/back.png" alt="물고기">
+        </div>
+        
+        <div class="list_content"><!--패딩 left-->
+            <textarea> </textarea>
+        <div class ="left">
+            <input type ="text">
+            <input type ="text">
+        </div>
+        <button type="button" class="right">등록하기</button><!--float right-->
+    </div>
+    </div>
+
+
+    <div class="list">
+        <div class="img_list">
+        <img src="img/back.png" width="50" alt="물고기">
+    </div>
+
+        <div class="list_content">
+            <div class="left">
+                <p style="margin: 0;"><strong>제목</strong></p>
+                <p style="margin: 0;"><small>내용</small></p>
+              
+        </div>
+        <button type="button" class="right">삭제</button>
+        <button type="button" class="right">수정</button>
+        </div>
+    
+</div>
+</body>
+</html>
