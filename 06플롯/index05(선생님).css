@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-.conts .list_wrap {width: 480px; float: left; border: 1px solid #777;}
+.conts .list_wrap {width: 480px; float: left; border: 1px solid rgb(178, 41, 41);}
 .conts .slide_wrap {width: 236px; float: left; border: 1px solid #777; height: 310px; margin-left: 8px;}
 .conts .user_wrap {width: 280px; float: left; border: 1px; margin-left: 8px;}
 

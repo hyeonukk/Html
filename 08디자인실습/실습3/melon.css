@@ -1,0 +1,149 @@
+* {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none;}
+img {max-width: 100%; height: auto;}
+
+
+#header {border-top: 3px solid#00d344;}
+#header .wrap {border-bottom: 1px solid #999;}
+#header .wrap .top {margin: 0 auto; width: 1008px; overflow: hidden;}
+#header .wrap .top .top_left{float: left; padding: 11px 7px;}
+#header .wrap .top .top_right{float: right;}
+
+.top_right ul li {display: inline; border-left: 1px solid #999;}
+.top_right ul li a {display: inline-block; color: #999; font-weight: 700; padding: 11px 7px; }
+
+
+#header .wrap .mid{overflow: hidden; margin: 0 auto; width: 1008px;}
+.mid .mid_left {float: left;}
+.mid .mid_right {float: right; margin-top: 10px;}
+
+.mid fieldset {
+    float: left; background-image: url("img/bg_cmn_search.png"); width: 330px; height: 40px; margin: 36px 0px 0px 11px;
+border: none; overflow: hidden;
+}
+.mid fieldset input { float: left; margin: 7px 0 0 18px; border: none; width: 260px; height: 25px;}
+.mid fieldset button {float: right;
+     background-image: url("img/melon_btn.png"); height: 40px; width: 45px; border: none; 
+    background-color: white; cursor: pointer;
+}
+
+#header .wrap .bottom {
+    margin: 0 auto;
+    width: 1008px;
+    overflow: hidden;
+}
+.bottom .main_gnb{float: left;}
+.bottom .main_gnb li{display: inline;}
+.bottom .main_gnb li a{display: inline-block; width: 75px; height: 40px; font-size: 15px; font-weight: 700; text-align: center;
+color: #000;
+}
+
+.bottom .sub_gnb{float: right;}
+.bottom .sub_gnb li a {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    width: 75px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+}
+
+/******************************************************/
+/*#section*/
+
+#section .wrap {
+    width: 1008px;
+    margin: 0 auto;
+    
+}
+#section .cont {
+    overflow: hidden;
+}
+
+#section .conts .list_wrap {width: 480px; float: left; }
+#section .conts .slide_wrap {width: 236px; float: left; margin-left: 4px;}
+#section .conts .user_wrap {width: 280px; float: left; border: 1px; margin-left: 8px;}
+
+#section .conts .list_wrap ul {overflow: hidden;}
+#section .conts .list_wrap ul li{
+    float: left;
+    width: 33.3333%; 
+    height: 159px; 
+    /* border: 1px solid #777;  */
+    box-sizing: border-box;
+    position: relative;
+}
+
+#section .user_wrap .login_wrap {
+    border: 1px solid #777;
+    height: 118px;
+    margin-bottom: 8px;
+    padding: 0 15px;
+}
+#section .user_wrap .promo_wrap {
+    /* border: 1px solid #777;
+    height: 155px; */
+}
+
+#section .login_wrap .top {overflow: hidden; margin-top: 30px;} 
+#section .login_wrap .top .left {float: left; font-size: 13px; color: #555;}
+#section .login_wrap .top .right {float:right; font-size: 13px; color: #555;}
+#section .login_wrap .login_btn {
+        background-color: #00d344;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+        padding: 10px 0;
+        margin-top: 10px;
+
+}
+
+#section .conts .list_wrap ul li a {
+    position: relative;
+}
+#section .conts .list_wrap ul li .singer {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+    font-size: 13px;
+}
+
+#section .conts .list_wrap ul li .hover_cont {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 156px; /*부모영역기반*/
+    height: 156px; /*부모영역기반*/
+    background-color: rgb(0,0,0 , 0.7);
+    color: #777;
+    text-align: center;
+    opacity: 0; /* 투명도0 */
+    transition: opacity 0.25s ease-in-out;
+}
+#section .conts .list_wrap ul li:hover .hover_cont{
+    opacity: 1;
+}
+
+#section .conts .list_wrap ul li .hover_cont a {
+    margin-top: 55px;
+    display: block;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+}
+.issue span {
+    font-size: 3px;
+    color: #777;
+}
+.wrap .issue ul {overflow: hidden; width: 800px; box-sizing: border-box;}
+.wrap .issue ul li {float: left; margin: 10px;}
+.wrap .issue ul li .melon_tv {color:#00d344}

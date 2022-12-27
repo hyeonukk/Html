@@ -56,10 +56,12 @@ body {
     position: absolute;
     top:0px;
     left: 180px;
+  
 }
 .right {
     float: right;
     position: absolute;
     top:0px;
     right: 180px ;
+   
 }

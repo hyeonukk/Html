@@ -1,0 +1,24 @@
+* {padding: 0px; margin: 0; list-style: none; box-sizing: border-box;}
+.detail-info > .money {
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;    
+}
+p{margin: 0px 0 10px;}
+.delivery {margin-top: 10px; padding: 0; }
+.money {font-size: 30px; }
+
+.detail-content{overflow: hidden; margin-top: 120px;}
+.detail-content .left {
+    float: left;
+}   
+.detail-content .right{
+    float: right;
+}
+
+.final{overflow: hidden;}
+.fianl .left {
+    float: left; width: 50%; height: 60px;
+}
+.fianl .right{float: right; width: 50%; height: 60px; background-color: rgb(169, 169, 230); color: white;}
+
+.box {border: 1px solid #777; width: 100%;}
